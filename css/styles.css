@@ -16,7 +16,7 @@
 
 body {
    font-family: var(--main-font), sans-serif;
-   font-style: normal;
+   font-weight: 400;
    font-size: 14px;
    letter-spacing: 0.03em;
 
@@ -104,7 +104,6 @@ color: var(--title-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: inherit;
-    font-style: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -138,6 +137,7 @@ color: var(--title-text-color);
   }
 
 .features-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -145,7 +145,6 @@ color: var(--title-text-color);
 }
 
 .features-descr {
-    font-weight: 400;
     line-height: 1.71;
     color: var(--primary-text-color);
 }
@@ -189,7 +188,6 @@ color: var(--title-text-color);
 }
 
 .team-member-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     
@@ -212,8 +210,13 @@ color: var(--title-text-color);
 }
 
 /* Секція Контакти */
+address {
+    font-style: normal;
+}
+
 .address-footer{
     color: var(--secondary-text-color);
+    line-height: 1.71;
 }
 
 .address-footer:hover,
@@ -222,11 +225,7 @@ color: var(--title-text-color);
 }
 
 .contact-footer {
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--main-font-size);
     line-height: 1.71;
-    letter-spacing: 0.03em;
     
     color: rgba(255, 255, 255, 0.6);
 }    
@@ -270,9 +269,7 @@ color: var(--title-text-color);
 }
 
 .portfolio-item-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     
-    color: var(--primary-text-color);
 }
